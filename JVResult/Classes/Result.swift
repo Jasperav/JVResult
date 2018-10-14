@@ -2,11 +2,11 @@ public enum Result<T> {
     case succes(data: T), error(resultError: ResultError)
 
     public var error: ResultError? {
-        if case .error(let e) = self { // *
-            return e
-        } else {
+        guard case .error(let _error) = self else { // *
             return nil
         }
+        
+        return _error
     }
     
     //* Does the same thing as the following code:
