@@ -1,0 +1,16 @@
+PODS:
+  - JVResult (0.1.0)
+
+DEPENDENCIES:
+  - JVResult (from `../`)
+
+EXTERNAL SOURCES:
+  JVResult:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JVResult: e52cbfe37105fd00fdee190cdd5e7c5097903a2c
+
+PODFILE CHECKSUM: 0f78c9a58bedb4df61bef023d2c048a6d62e1918
+
+COCOAPODS: 1.6.0.beta.1

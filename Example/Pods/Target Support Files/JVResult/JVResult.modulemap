@@ -1,0 +1,6 @@
+framework module JVResult {
+  umbrella header "JVResult-umbrella.h"
+
+  export *
+  module * { export * }
+}
