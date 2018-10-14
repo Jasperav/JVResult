@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JVResult'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Generic result sets with can contain an error or data'
   s.homepage         = 'https://github.com/Jasperav/JVResult'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
