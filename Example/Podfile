@@ -1,0 +1,6 @@
+use_frameworks!
+target 'JVResult_Tests' do
+  pod 'JVResult', :path => '../'
+  
+  
+end
